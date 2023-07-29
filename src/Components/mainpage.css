@@ -1,0 +1,120 @@
+.MP{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15.5%;
+    margin-top: 6px;
+    gap: 10px;
+}
+  .VideoBox{
+    position: relative;
+    background-color: black;
+    width: 276px;
+    height: 247px;
+    
+  }
+  .ThumbnailImg{
+    width: 276px;
+    height: 155px;
+  }
+  .ThumbnailDis{
+    display: flex;
+  }
+  .inline{
+    display: inline-block;
+    font-size: 12px;
+  }
+  .ThumbnailPFP{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 12px 12px 26px  0px;
+  }
+  .Dis .title{
+    margin-top: 3px;
+    height: 40px;
+    overflow: hidden;
+  }
+  .Dis{
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .titleDis{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+  }
+  
+
+
+
+  
+  @media (max-width:1341px){
+    .MP{
+        margin-left: 22%;
+        gap: 50px;
+    }
+  }
+  @media (max-width:1189px){
+    .MP{
+        margin-left: 18%;
+        gap: 50px;
+    }
+  }  
+  @media (max-width:1131px){
+    .MP{
+        margin-left: 16%;
+        gap: 50px;
+    }
+  }
+  @media (max-width:1104px){
+    .MP{
+        margin-left: 19%;
+        gap: 10px;
+    }
+  }
+  @media (max-width:1046px){
+    .MP{
+        margin-left: 17%;
+        gap: 10px;
+    }
+  }
+  @media (max-width:1021px){
+    .MP{
+        margin-left: 16%;
+        gap: 10px;
+    }
+  }
+  @media (max-width:1009px){
+    .MP{
+        margin-left: 16%;
+        gap: 3px;
+    }
+  }
+  @media (max-width:992px){
+    .MP{
+        margin-left: 9%;
+        gap: 10px;
+    }
+  }
+  @media (max-width:931px){
+    .MP{
+        margin-left: 6%;
+        gap: 4px;
+    }
+  }
+  @media (max-width:889px){
+    .MP{
+        
+        margin-left:20%;
+        gap: 20px;
+    }
+  }
+  @media (max-width:800px){
+    .MP{
+        justify-content: center;
+        margin: 0 auto;
+        gap: 20px;
+    }
+  }

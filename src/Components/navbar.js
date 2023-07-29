@@ -8,13 +8,13 @@ import Create from "./Assets/create.png"
 import apps from "./Assets/apps.png"
 import Notification from "./Assets/notifications.png"
 import PFP from "./Assets/Profile.png"
-
 function navbar() {
+  
   return (
     <>
         <div className="NavBar">
             <div className="left">
-                <img src={SideBtn} alt="/" />
+                <img src={SideBtn}  alt="/" />
                 <img src={Logo} alt="/" />
             </div>
             
