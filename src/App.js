@@ -1,13 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-
+import NavBar from './Components/navbar.js';
 function App() {
   return (
-    <div className="App">
-      <div className='container' >
-           <h1>I will create youtube with react now</h1>
-      </div>      
-    </div>
+    <body>
+      <NavBar />
+    </body>
   );
 }
 export default App;

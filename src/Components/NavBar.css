@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color:white;
+}
+.NavBar{
+    height: 56px;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 16px;
+}
+
+.searchbox{
+    display: flex;
+    column-gap :5px;
+}
+.searchbox > div{
+    display: flex;
+    
+}
+.searchform > input{
+    width: 406px;
+    height: 40px;
+    padding: 0% 10px;
+    font-size: large;
+    background-color: #121212;
+    outline: none;
+    border: none;
+}
+.searchbox > .searchform > .btnsearch{
+    background-color: #303030;
+    padding: 7px 20px ;
+
+}
+.btnsearch:hover{
+    cursor: pointer;
+}
+.searchbox > .mic{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: ease-out 200ms;
+}
+.searchbox > .mic:hover{
+    background-color: black;
+}
+
+.right{
+    margin-right: 16px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media  (max-width: 1000px){
+    .searchform > input{
+        width: 306px;
+    }
+}
+@media  (max-width: 800px){
+    .searchform > input{
+        width: 206px;
+    }
+}
+@media  (max-width: 650px){
+    .mic{
+        display: none;
+    }
+}
+@media  (max-width: 600px){
+    .Remove{
+        display: none;
+    }
+}
+@media  (max-width: 500px){
+    .searchform > input{
+        width: 100px;
+        margin-left: 10px;
+    }
+}
+@media  (max-width: 360px){
+    .profile{
+        margin-right: 10px;
+    }
+}
